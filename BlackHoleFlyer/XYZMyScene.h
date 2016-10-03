@@ -10,4 +10,6 @@
 
 @interface XYZMyScene : SKScene
 
+-(id)initWithSize:(CGSize)size andReplay:(BOOL)replay;
+
 @end

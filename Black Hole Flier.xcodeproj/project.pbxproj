@@ -17,13 +17,19 @@
 		B62AEAB8198C339000782D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62AEAB6198C339000782D3E /* Main.storyboard */; };
 		B62AEABB198C339000782D3E /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62AEABA198C339000782D3E /* XYZViewController.m */; };
 		B62AEABE198C339000782D3E /* XYZMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B62AEABD198C339000782D3E /* XYZMyScene.m */; };
-		B62AEAC0198C339000782D3E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B62AEABF198C339000782D3E /* Spaceship.png */; };
 		B62AEAC2198C339000782D3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62AEAC1198C339000782D3E /* Images.xcassets */; };
-		B62AEAC9198C339000782D3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62AEAC8198C339000782D3E /* XCTest.framework */; };
 		B62AEACA198C339000782D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62AEAA2198C339000782D3E /* Foundation.framework */; };
 		B62AEACB198C339000782D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62AEAA6198C339000782D3E /* UIKit.framework */; };
 		B62AEAD3198C339000782D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B62AEAD1198C339000782D3E /* InfoPlist.strings */; };
 		B62AEAD5198C339000782D3E /* BlackHoleFlyerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62AEAD4198C339000782D3E /* BlackHoleFlyerTests.m */; };
+		B62AEADF198C373900782D3E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62AEADE198C373900782D3E /* CoreMotion.framework */; };
+		B67601F41A100A8600D3A25B /* RocketJets.sks in Resources */ = {isa = PBXBuildFile; fileRef = B67601F21A100A8600D3A25B /* RocketJets.sks */; };
+		B67601F51A100A8600D3A25B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B67601F31A100A8600D3A25B /* spark.png */; };
+		B67601F71A100D3200D3A25B /* SideBoosters.sks in Resources */ = {isa = PBXBuildFile; fileRef = B67601F61A100D3200D3A25B /* SideBoosters.sks */; };
+		B6BEEDFA19DEB9D400850410 /* XYZGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BEEDF919DEB9D400850410 /* XYZGameOverScene.m */; };
+		B6D081D419E4550800E5A5F0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D081D319E4550800E5A5F0 /* iAd.framework */; };
+		B6D33B2119F044D600538E27 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D33B2019F044D600538E27 /* GameKit.framework */; };
+		B6D86ED519FD4F4E00747B00 /* point.caf in Resources */ = {isa = PBXBuildFile; fileRef = B6D86ED419FD4F4E00747B00 /* point.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B62AEA9F198C339000782D3E /* BlackHoleFlyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackHoleFlyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62AEA9F198C339000782D3E /* Black Hole Flier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Hole Flier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62AEAA2198C339000782D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B62AEAA4198C339000782D3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B62AEAA6198C339000782D3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B62AEAA8198C339000782D3E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		B62AEAAC198C339000782D3E /* BlackHoleFlyer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackHoleFlyer-Info.plist"; sourceTree = "<group>"; };
+		B62AEAAC198C339000782D3E /* Black Hole Flier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Black Hole Flier-Info.plist"; sourceTree = "<group>"; };
 		B62AEAAE198C339000782D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B62AEAB0198C339000782D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B62AEAB2198C339000782D3E /* BlackHoleFlyer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlackHoleFlyer-Prefix.pch"; sourceTree = "<group>"; };
+		B62AEAB2198C339000782D3E /* Black Hole Flier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Black Hole Flier-Prefix.pch"; sourceTree = "<group>"; };
 		B62AEAB3198C339000782D3E /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
 		B62AEAB4198C339000782D3E /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
 		B62AEAB7198C339000782D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,13 +59,20 @@
 		B62AEABA198C339000782D3E /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
 		B62AEABC198C339000782D3E /* XYZMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZMyScene.h; sourceTree = "<group>"; };
 		B62AEABD198C339000782D3E /* XYZMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZMyScene.m; sourceTree = "<group>"; };
-		B62AEABF198C339000782D3E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		B62AEAC1198C339000782D3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B62AEAC7198C339000782D3E /* BlackHoleFlyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHoleFlyerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B62AEAC8198C339000782D3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B62AEAD0198C339000782D3E /* BlackHoleFlyerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackHoleFlyerTests-Info.plist"; sourceTree = "<group>"; };
+		B62AEAC7198C339000782D3E /* Black Hole FlierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black Hole FlierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62AEAD0198C339000782D3E /* Black Hole FlierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Black Hole FlierTests-Info.plist"; sourceTree = "<group>"; };
 		B62AEAD2198C339000782D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B62AEAD4198C339000782D3E /* BlackHoleFlyerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackHoleFlyerTests.m; sourceTree = "<group>"; };
+		B62AEADE198C373900782D3E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B67601F21A100A8600D3A25B /* RocketJets.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RocketJets.sks; sourceTree = "<group>"; };
+		B67601F31A100A8600D3A25B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B67601F61A100D3200D3A25B /* SideBoosters.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SideBoosters.sks; sourceTree = "<group>"; };
+		B6BEEDF819DEB9D400850410 /* XYZGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZGameOverScene.h; sourceTree = "<group>"; };
+		B6BEEDF919DEB9D400850410 /* XYZGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZGameOverScene.m; sourceTree = "<group>"; };
+		B6D081D319E4550800E5A5F0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B6D33B2019F044D600538E27 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B6D86ED419FD4F4E00747B00 /* point.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = point.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D081D419E4550800E5A5F0 /* iAd.framework in Frameworks */,
+				B62AEADF198C373900782D3E /* CoreMotion.framework in Frameworks */,
+				B6D33B2119F044D600538E27 /* GameKit.framework in Frameworks */,
 				B62AEAA5198C339000782D3E /* CoreGraphics.framework in Frameworks */,
 				B62AEAA7198C339000782D3E /* UIKit.framework in Frameworks */,
 				B62AEAA9198C339000782D3E /* SpriteKit.framework in Frameworks */,
@@ -78,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62AEAC9198C339000782D3E /* XCTest.framework in Frameworks */,
 				B62AEACB198C339000782D3E /* UIKit.framework in Frameworks */,
 				B62AEACA198C339000782D3E /* Foundation.framework in Frameworks */,
 			);
@@ -100,8 +115,8 @@
 		B62AEAA0198C339000782D3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B62AEA9F198C339000782D3E /* BlackHoleFlyer.app */,
-				B62AEAC7198C339000782D3E /* BlackHoleFlyerTests.xctest */,
+				B62AEA9F198C339000782D3E /* Black Hole Flier.app */,
+				B62AEAC7198C339000782D3E /* Black Hole FlierTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,11 +124,13 @@
 		B62AEAA1198C339000782D3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6D33B2019F044D600538E27 /* GameKit.framework */,
+				B6D081D319E4550800E5A5F0 /* iAd.framework */,
+				B62AEADE198C373900782D3E /* CoreMotion.framework */,
 				B62AEAA2198C339000782D3E /* Foundation.framework */,
 				B62AEAA4198C339000782D3E /* CoreGraphics.framework */,
 				B62AEAA6198C339000782D3E /* UIKit.framework */,
 				B62AEAA8198C339000782D3E /* SpriteKit.framework */,
-				B62AEAC8198C339000782D3E /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +145,12 @@
 				B62AEABA198C339000782D3E /* XYZViewController.m */,
 				B62AEABC198C339000782D3E /* XYZMyScene.h */,
 				B62AEABD198C339000782D3E /* XYZMyScene.m */,
-				B62AEABF198C339000782D3E /* Spaceship.png */,
+				B67601F61A100D3200D3A25B /* SideBoosters.sks */,
+				B67601F21A100A8600D3A25B /* RocketJets.sks */,
+				B67601F31A100A8600D3A25B /* spark.png */,
+				B6BEEDF819DEB9D400850410 /* XYZGameOverScene.h */,
+				B6BEEDF919DEB9D400850410 /* XYZGameOverScene.m */,
+				B6D86ED419FD4F4E00747B00 /* point.caf */,
 				B62AEAC1198C339000782D3E /* Images.xcassets */,
 				B62AEAAB198C339000782D3E /* Supporting Files */,
 			);
@@ -138,10 +160,11 @@
 		B62AEAAB198C339000782D3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B62AEAAC198C339000782D3E /* BlackHoleFlyer-Info.plist */,
+				B62AEAAC198C339000782D3E /* Black Hole Flier-Info.plist */,
 				B62AEAAD198C339000782D3E /* InfoPlist.strings */,
 				B62AEAB0198C339000782D3E /* main.m */,
-				B62AEAB2198C339000782D3E /* BlackHoleFlyer-Prefix.pch */,
+				B62AEAB2198C339000782D3E /* Black Hole Flier-Prefix.pch */,
+				B671A61919DCB0AD00E6E7B9 /* Images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,18 +181,25 @@
 		B62AEACF198C339000782D3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B62AEAD0198C339000782D3E /* BlackHoleFlyerTests-Info.plist */,
+				B62AEAD0198C339000782D3E /* Black Hole FlierTests-Info.plist */,
 				B62AEAD1198C339000782D3E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B671A61919DCB0AD00E6E7B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B62AEA9E198C339000782D3E /* BlackHoleFlyer */ = {
+		B62AEA9E198C339000782D3E /* Black Hole Flier */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62AEAD8198C339000782D3E /* Build configuration list for PBXNativeTarget "BlackHoleFlyer" */;
+			buildConfigurationList = B62AEAD8198C339000782D3E /* Build configuration list for PBXNativeTarget "Black Hole Flier" */;
 			buildPhases = (
 				B62AEA9B198C339000782D3E /* Sources */,
 				B62AEA9C198C339000782D3E /* Frameworks */,
@@ -179,14 +209,14 @@
 			);
 			dependencies = (
 			);
-			name = BlackHoleFlyer;
+			name = "Black Hole Flier";
 			productName = BlackHoleFlyer;
-			productReference = B62AEA9F198C339000782D3E /* BlackHoleFlyer.app */;
+			productReference = B62AEA9F198C339000782D3E /* Black Hole Flier.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B62AEAC6198C339000782D3E /* BlackHoleFlyerTests */ = {
+		B62AEAC6198C339000782D3E /* Black Hole FlierTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62AEADB198C339000782D3E /* Build configuration list for PBXNativeTarget "BlackHoleFlyerTests" */;
+			buildConfigurationList = B62AEADB198C339000782D3E /* Build configuration list for PBXNativeTarget "Black Hole FlierTests" */;
 			buildPhases = (
 				B62AEAC3198C339000782D3E /* Sources */,
 				B62AEAC4198C339000782D3E /* Frameworks */,
@@ -197,9 +227,9 @@
 			dependencies = (
 				B62AEACD198C339000782D3E /* PBXTargetDependency */,
 			);
-			name = BlackHoleFlyerTests;
+			name = "Black Hole FlierTests";
 			productName = BlackHoleFlyerTests;
-			productReference = B62AEAC7198C339000782D3E /* BlackHoleFlyerTests.xctest */;
+			productReference = B62AEAC7198C339000782D3E /* Black Hole FlierTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,12 +242,20 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Roger Ray";
 				TargetAttributes = {
+					B62AEA9E198C339000782D3E = {
+						DevelopmentTeam = 3G8JD7RB8D;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
 					B62AEAC6198C339000782D3E = {
 						TestTargetID = B62AEA9E198C339000782D3E;
 					};
 				};
 			};
-			buildConfigurationList = B62AEA9A198C339000782D3E /* Build configuration list for PBXProject "BlackHoleFlyer" */;
+			buildConfigurationList = B62AEA9A198C339000782D3E /* Build configuration list for PBXProject "Black Hole Flier" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,8 +268,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B62AEA9E198C339000782D3E /* BlackHoleFlyer */,
-				B62AEAC6198C339000782D3E /* BlackHoleFlyerTests */,
+				B62AEA9E198C339000782D3E /* Black Hole Flier */,
+				B62AEAC6198C339000782D3E /* Black Hole FlierTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,9 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62AEAAF198C339000782D3E /* InfoPlist.strings in Resources */,
+				B67601F51A100A8600D3A25B /* spark.png in Resources */,
+				B67601F71A100D3200D3A25B /* SideBoosters.sks in Resources */,
+				B67601F41A100A8600D3A25B /* RocketJets.sks in Resources */,
 				B62AEAC2198C339000782D3E /* Images.xcassets in Resources */,
-				B62AEAC0198C339000782D3E /* Spaceship.png in Resources */,
 				B62AEAB8198C339000782D3E /* Main.storyboard in Resources */,
+				B6D86ED519FD4F4E00747B00 /* point.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +306,7 @@
 			files = (
 				B62AEABB198C339000782D3E /* XYZViewController.m in Sources */,
 				B62AEAB5198C339000782D3E /* XYZAppDelegate.m in Sources */,
+				B6BEEDFA19DEB9D400850410 /* XYZGameOverScene.m in Sources */,
 				B62AEABE198C339000782D3E /* XYZMyScene.m in Sources */,
 				B62AEAB1198C339000782D3E /* main.m in Sources */,
 			);
@@ -283,7 +325,7 @@
 /* Begin PBXTargetDependency section */
 		B62AEACD198C339000782D3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B62AEA9E198C339000782D3E /* BlackHoleFlyer */;
+			target = B62AEA9E198C339000782D3E /* Black Hole Flier */;
 			targetProxy = B62AEACC198C339000782D3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,11 +433,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlackHoleFlyer/BlackHoleFlyer-Prefix.pch";
-				INFOPLIST_FILE = "BlackHoleFlyer/BlackHoleFlyer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BlackHoleFlyer/Black Hole Flier-Prefix.pch";
+				INFOPLIST_FILE = "BlackHoleFlyer/Black Hole Flier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William-Ray.Black-Hole-Flier";
+				PRODUCT_NAME = "Black Hole Flier";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,11 +453,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlackHoleFlyer/BlackHoleFlyer-Prefix.pch";
-				INFOPLIST_FILE = "BlackHoleFlyer/BlackHoleFlyer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BlackHoleFlyer/Black Hole Flier-Prefix.pch";
+				INFOPLIST_FILE = "BlackHoleFlyer/Black Hole Flier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William-Ray.Black-Hole-Flier";
+				PRODUCT_NAME = "Black Hole Flier";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,8 +483,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BlackHoleFlyerTests/BlackHoleFlyerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BlackHoleFlyerTests/Black Hole FlierTests-Info.plist";
+				PRODUCT_NAME = "Black Hole FlierTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -447,8 +501,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlackHoleFlyer/BlackHoleFlyer-Prefix.pch";
-				INFOPLIST_FILE = "BlackHoleFlyerTests/BlackHoleFlyerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BlackHoleFlyerTests/Black Hole FlierTests-Info.plist";
+				PRODUCT_NAME = "Black Hole FlierTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -457,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B62AEA9A198C339000782D3E /* Build configuration list for PBXProject "BlackHoleFlyer" */ = {
+		B62AEA9A198C339000782D3E /* Build configuration list for PBXProject "Black Hole Flier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62AEAD6198C339000782D3E /* Debug */,
@@ -466,21 +520,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62AEAD8198C339000782D3E /* Build configuration list for PBXNativeTarget "BlackHoleFlyer" */ = {
+		B62AEAD8198C339000782D3E /* Build configuration list for PBXNativeTarget "Black Hole Flier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62AEAD9198C339000782D3E /* Debug */,
 				B62AEADA198C339000782D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B62AEADB198C339000782D3E /* Build configuration list for PBXNativeTarget "BlackHoleFlyerTests" */ = {
+		B62AEADB198C339000782D3E /* Build configuration list for PBXNativeTarget "Black Hole FlierTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62AEADC198C339000782D3E /* Debug */,
 				B62AEADD198C339000782D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B62AEA9E198C339000782D3E"
-               BuildableName = "BlackHoleFlyer.app"
-               BlueprintName = "BlackHoleFlyer"
-               ReferencedContainer = "container:BlackHoleFlyer.xcodeproj">
+               BuildableName = "Black Hole Flier.app"
+               BlueprintName = "Black Hole Flier"
+               ReferencedContainer = "container:Black Hole Flier.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B62AEAC6198C339000782D3E"
-               BuildableName = "BlackHoleFlyerTests.xctest"
-               BlueprintName = "BlackHoleFlyerTests"
-               ReferencedContainer = "container:BlackHoleFlyer.xcodeproj">
+               BuildableName = "Black Hole FlierTests.xctest"
+               BlueprintName = "Black Hole FlierTests"
+               ReferencedContainer = "container:Black Hole Flier.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B62AEA9E198C339000782D3E"
-            BuildableName = "BlackHoleFlyer.app"
-            BlueprintName = "BlackHoleFlyer"
-            ReferencedContainer = "container:BlackHoleFlyer.xcodeproj">
+            BuildableName = "Black Hole Flier.app"
+            BlueprintName = "Black Hole Flier"
+            ReferencedContainer = "container:Black Hole Flier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B62AEA9E198C339000782D3E"
-            BuildableName = "BlackHoleFlyer.app"
-            BlueprintName = "BlackHoleFlyer"
-            ReferencedContainer = "container:BlackHoleFlyer.xcodeproj">
+            BuildableName = "Black Hole Flier.app"
+            BlueprintName = "Black Hole Flier"
+            ReferencedContainer = "container:Black Hole Flier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B62AEA9E198C339000782D3E"
-            BuildableName = "BlackHoleFlyer.app"
-            BlueprintName = "BlackHoleFlyer"
-            ReferencedContainer = "container:BlackHoleFlyer.xcodeproj">
+            BuildableName = "Black Hole Flier.app"
+            BlueprintName = "Black Hole Flier"
+            ReferencedContainer = "container:Black Hole Flier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

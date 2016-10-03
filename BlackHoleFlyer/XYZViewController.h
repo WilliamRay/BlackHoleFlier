@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import <GameKit/GameKit.h>
+#import <iAd/iAd.h>
 
-@interface XYZViewController : UIViewController
+@interface XYZViewController : UIViewController <GKGameCenterControllerDelegate, ADBannerViewDelegate>
+
+-(void)authenticateLocalPlayer;
 
 @end
